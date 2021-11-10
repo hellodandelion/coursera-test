@@ -13,10 +13,10 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+  background: url('../images/restaurant-logo_medium.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
 }
 
 .navbar-brand {
@@ -82,3 +82,25 @@ body {
   margin-top: -30px;
 }
 /* END HEADER */
+
+/**** large devices only ****/
+@media (min-width: 1200px;) {
+
+}
+
+/**** medium devices only ****/
+@media (min-width: 992px;) and (max-width: 1199px;) {
+	
+}
+
+/**** small devices only ****/
+@media (min-width: 768px;) and (max-width: 991px;) {
+	
+}
+
+/**** xsmall devices only ****/
+@media (max-width: 767px;) {
+	
+}
+
+
