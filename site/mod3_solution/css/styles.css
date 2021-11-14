@@ -28,12 +28,16 @@ body {
 }
 
 #nav-list a {
-  color: #80bad1;
+  color: #9b59d0;
   font-weight: bold;
 }
 
 #nav-list a:hover {
   background: #fff433;
+}
+
+#collapsable-nav{
+  text-align: center;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
