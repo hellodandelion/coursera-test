@@ -1,14 +1,48 @@
+// (function (window) {
+//   var yaakovGreeter = {};
+//   yaakovGreeter.name = "Yaakov";
+//   var greeting = "Hello ";
+//   yaakovGreeter.sayHello = function () {
+//     console.log(greeting + yaakovGreeter.name);
+//   }
+
+//   window.yaakovGreeter = yaakovGreeter;
+
+// })(window);
+
+
+// // Closures
+// function makeMultiplier (multiplier) {
+//   // var multiplier = 2;
+//   function b() {
+//     console.log("Multiplier is: " + multiplier);
+//   }
+//   b();
+
+
+//   return (
+//       function (x) {
+//         return multiplier * x;
+//       }
+
+//     );
+// }
+
+// var doubleAll = makeMultiplier(2);
+// console.log(doubleAll(10)); // its own exec env
+
+
 // let firstName = "Daniel";
 // let lastName = "Morrison";
 // let fullName = "firstName" + "" + "lastName";
 // console.log(fullName);
 
-var counter = 0;
-var myArray = ["Yaakov", 2, {handle: "yaakovchaikin"}];
-for (var i = 0; i < myArray.length; i++) {
-  counter++;
-}
-console.log(counter);
+// var counter = 0;
+// var myArray = ["Yaakov", 2, {handle: "yaakovchaikin"}];
+// for (var i = 0; i < myArray.length; i++) {
+//   counter++;
+// }
+// console.log(counter);
 // // Object literals and "this"
 // var literalCircle = {
 //   radius: 10,
